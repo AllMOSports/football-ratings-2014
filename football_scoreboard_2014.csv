@@ -27,16 +27,16 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-22,Lutheran North,49,Clayton,0
 2014-08-22,Warsaw,20,Clinton,14
 2014-08-22,Winfield,22,Clopton with Elsberry,50
-2014-08-22,Skyline,13,Cole Camp with Green Ridge,36
+2014-08-22,Skyline,13,Cole Camp,36
 2014-08-22,St. James,12,Cuba,6
-2014-08-22,Pacific,28,DeSoto,20
-2014-08-22,McAuley Catholic with New Heights Christian,7,Diamond,34
+2014-08-22,Pacific,28,DeSoto with Kingston,20
+2014-08-22,McAuley Catholic,7,Diamond,34
 2014-08-22,Carl Junction,44,East Newton,12
 2014-08-22,Kelly,7,East Prairie,29
 2014-08-22,Warrensburg,14,Excelsior Springs,7
 2014-08-22,Buffalo,7,Fair Grove,33
 2014-08-22,Ladue Horton Watkins,46,Farmington,7
-2014-08-22,Harrisburg,0,Father Tolton Regional Catholic,63
+2014-08-22,Harrisburg,0,Father Tolton with Calvary Lutheran,63
 2014-08-22,Hallsville,54,Fayette,6
 2014-08-22,Webster Groves,12,Francis Howell,58
 2014-08-22,Ft. Zumwalt East,35,Francis Howell Central,7
@@ -70,7 +70,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-22,Caruthersville,14,Liberty (Mountain View),52
 2014-08-22,Raytown,0,Liberty North,30
 2014-08-22,Kirkwood,48,Lindbergh,9
-2014-08-22,Liberal,6,Lockwood with Golden City,56
+2014-08-22,Liberal with Bronaugh,6,Lockwood with Golden City,56
 2014-08-22,Bowling Green,47,Louisiana,14
 2014-08-22,Principia,7,Lutheran St. Charles,42
 2014-08-22,Central (New Madrid County),26,Malden,54
@@ -112,7 +112,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-22,Smith-Cotton,7,Republic,22
 2014-08-22,Lincoln,50,Rich Hill with Hume,21
 2014-08-22,O'Hara,49,Richmond,20
-2014-08-22,Rockhurst,49,Rock Bridge with Columbia Independent,14
+2014-08-22,Rockhurst,49,Rock Bridge,14
 2014-08-22,Lebanon,48,Rolla,31
 2014-08-22,Scotland County,0,Salisbury,47
 2014-08-22,Slater,14,Santa Fe,66
@@ -136,7 +136,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-22,Lee's Summit,81,Truman,42
 2014-08-22,St. Vincent,0,Valle Catholic,56
 2014-08-22,Lathrop,3,Van Horn,9
-2014-08-22,North Shelby,0,Van-Far,46
+2014-08-22,North Shelby,0,Van-Far with Community,46
 2014-08-22,Central (Cape Girardeau),44,Vashon,34
 2014-08-22,Orchard Farm,16,Veritas Christian Academy,7
 2014-08-22,St. Dominic,23,Warrenton,26
@@ -162,7 +162,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-23,Jennings,45,Riverview Gardens,10
 2014-08-23,Kirksville,12,Salem,34
 2014-08-23,Polo,32,Summit Christian Academy,27
-2014-08-23,Liberty (Wentzville),2,Transportation and Law,20
+2014-08-23,Liberty (Wentzville),2,Transportation and Law with Beaumont,20
 2014-08-23,Festus,0,Westminster Christian Academy,27
 2014-08-28,East (Kansas City),0,Lincoln College Prep,47
 2014-08-28,Parkway North,14,McCluer,0
@@ -193,14 +193,14 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-29,Centralia,34,Clark County,0
 2014-08-29,Maplewood-Richmond Hts.,0,Clayton,28
 2014-08-29,Santa Fe,13,Crest Ridge,44
-2014-08-29,Bishop DuBourg,34,DeSoto,13
+2014-08-29,Bishop DuBourg,34,DeSoto with Kingston,13
 2014-08-29,Poplar Bluff,30,Dexter,20
 2014-08-29,Adrian,28,Drexel with Miami (Amoret),0
 2014-08-29,Grandview (Hillsboro),6,East Prairie,63
 2014-08-29,Ava,28,El Dorado Springs,0
 2014-08-29,Hogan Prep Academy Charter,55,Eldon,33
 2014-08-29,Skyline,37,Fair Grove,0
-2014-08-29,Lutheran St. Charles,41,Father Tolton Regional Catholic,20
+2014-08-29,Lutheran St. Charles,41,Father Tolton with Calvary Lutheran,20
 2014-08-29,Harrisburg,12,Fayette,19
 2014-08-29,Veritas Christian Academy,20,Festus,50
 2014-08-29,Blue Springs,21,Fort Osage,35
@@ -227,7 +227,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-29,Chillicothe,21,Kirksville,15
 2014-08-29,Polo,30,Lathrop,7
 2014-08-29,Waynesville,14,Lebanon,15
-2014-08-29,Pierce City,56,Liberal,30
+2014-08-29,Pierce City,56,Liberal with Bronaugh,30
 2014-08-29,Kearney,42,Liberty,7
 2014-08-29,Sacred Heart,12,Lincoln,58
 2014-08-29,Rich Hill with Hume,14,Lockwood with Golden City,27
@@ -240,7 +240,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-29,Paris,19,Mark Twain,32
 2014-08-29,Republic,40,Marshfield,20
 2014-08-29,St. Pius X (Kansas City),0,Maryville,56
-2014-08-29,Sarcoxie,21,McAuley Catholic with New Heights Christian,43
+2014-08-29,Sarcoxie,21,McAuley Catholic,43
 2014-08-29,Aurora,27,McDonald County,6
 2014-08-29,Ritenour,32,Mehlville,14
 2014-08-29,Maysville,60,Mid-Buchanan,22
@@ -273,7 +273,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-29,Princeton with Mercer,6,Putnam County,30
 2014-08-29,William Chrisman,6,Raytown,47
 2014-08-29,Lawson,27,Richmond,13
-2014-08-29,De Smet Jesuit,0,Rock Bridge with Columbia Independent,44
+2014-08-29,De Smet Jesuit,0,Rock Bridge,44
 2014-08-29,Webb City,40,Rockhurst,14
 2014-08-29,Seckman,0,Rockwood Summit,51
 2014-08-29,Pembroke Hill,0,Ruskin,14
@@ -302,11 +302,11 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-29,Duchesne,18,Trinity Catholic,14
 2014-08-29,Raytown South,32,Truman,7
 2014-08-29,Ste. Genevieve,7,Valle Catholic,34
-2014-08-29,Missouri Military Academy,6,Van-Far,22
+2014-08-29,Missouri Military Academy,6,Van-Far with Community,22
 2014-08-29,Jackson,30,Vianney,23
 2014-08-29,Pleasant Hill,17,Warrensburg,8
 2014-08-29,Troy Buchanan,0,Warrenton,28
-2014-08-29,Cole Camp with Green Ridge,20,Warsaw,7
+2014-08-29,Cole Camp,20,Warsaw,7
 2014-08-29,Hazelwood East,6,Webster Groves,32
 2014-08-29,Camdenton,13,West Plains,19
 2014-08-29,Wellington-Napoleon,7,West Platte,44
@@ -323,7 +323,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-08-30,Confluence Prep Academy Charter,6,Kennett,47
 2014-08-30,Jennings,20,Ladue Horton Watkins,22
 2014-08-30,Kirkwood,18,McCluer North,14
-2014-08-30,Transportation and Law,0,MICDS,21
+2014-08-30,Transportation and Law with Beaumont,0,MICDS,21
 2014-08-30,Lutheran North,72,Principia,7
 2014-08-30,Fox,42,Riverview Gardens,0
 2014-08-30,John Burroughs,43,Roosevelt,29
@@ -335,7 +335,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-05,Drexel with Miami (Amoret),56,Archie,0
 2014-09-05,El Dorado Springs,24,Ash Grove,14
 2014-09-05,Mountain Grove,20,Ava,14
-2014-09-05,Rock Bridge with Columbia Independent,25,Battle,11
+2014-09-05,Rock Bridge,25,Battle,11
 2014-09-05,Blue Springs,31,Blue Springs South,21
 2014-09-05,Harrisonville,35,Bolivar,12
 2014-09-05,Maysville,58,Braymer,14
@@ -367,7 +367,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-05,Scott City,46,East Prairie,45
 2014-09-05,Richmond,40,Excelsior Springs,13
 2014-09-05,Pleasant Hope,14,Fair Grove,26
-2014-09-05,John F. Kennedy,8,Father Tolton Regional Catholic,40
+2014-09-05,John F. Kennedy,8,Father Tolton with Calvary Lutheran,40
 2014-09-05,Francis Howell Central,14,Fox,13
 2014-09-05,Ft. Zumwalt East,13,Francis Howell,52
 2014-09-05,Troy Buchanan,0,Ft. Zumwalt North,56
@@ -389,7 +389,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-05,Fort Osage,31,Lee's Summit,28
 2014-09-05,North Kansas City,25,Lee's Summit North,40
 2014-09-05,Northeast (Kansas City),6,Lexington,48
-2014-09-05,McAuley Catholic with New Heights Christian,20,Liberal,6
+2014-09-05,McAuley Catholic,20,Liberal with Bronaugh,6
 2014-09-05,Thayer,14,Liberty (Mountain View),21
 2014-09-05,Kearney,9,Liberty North,3
 2014-09-05,Oak Grove,44,Lincoln College Prep,18
@@ -408,7 +408,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-05,St. Pius X (Kansas City),48,Nevada,13
 2014-09-05,Branson,2,Nixa,37
 2014-09-05,Bowling Green,31,North Callaway,0
-2014-09-05,DeSoto,7,North County,42
+2014-09-05,DeSoto with Kingston,7,North County,42
 2014-09-05,Mid-Buchanan,30,North Platte,46
 2014-09-05,Paris,55,North Shelby,6
 2014-09-05,Raytown,56,Oak Park,26
@@ -450,7 +450,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-05,Holden,14,Trenton,0
 2014-09-05,Sullivan,19,Union,32
 2014-09-05,Sherwood,0,Van Horn,40
-2014-09-05,Mark Twain,50,Van-Far,0
+2014-09-05,Mark Twain,50,Van-Far with Community,0
 2014-09-05,Trinity Catholic,26,Veritas Christian Academy,27
 2014-09-05,California,51,Versailles,14
 2014-09-05,Warrenton,14,Washington,6
@@ -463,7 +463,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-06,Lafayette County,47,Central (Kansas City),0
 2014-09-06,Ft. Zumwalt West,21,Christian Brothers College,52
 2014-09-06,Vashon,34,Cleveland NJROTC,28
-2014-09-06,Sacred Heart,20,Cole Camp with Green Ridge,33
+2014-09-06,Sacred Heart,20,Cole Camp,33
 2014-09-06,Blair Oaks,28,Eldon,6
 2014-09-06,Hazelwood Central,23,Eureka,21
 2014-09-06,Oakville,7,Hazelwood East,34
@@ -480,7 +480,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-06,Rockwood Summit,28,Parkway West,0
 2014-09-06,John Burroughs,38,Priory,27
 2014-09-06,Miller Career Academy,36,Ritenour,12
-2014-09-06,Transportation and Law,8,Roosevelt,51
+2014-09-06,Transportation and Law with Beaumont,8,Roosevelt,51
 2014-09-06,Hillsboro,61,Seckman,27
 2014-09-06,Cardinal Ritter,24,St. Mary's South Side,23
 2014-09-06,Knob Noster,0,Summit Christian Academy,44
@@ -520,8 +520,8 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-12,Pierce City,18,Diamond,14
 2014-09-12,McDonald County,21,East Newton,6
 2014-09-12,Knob Noster,20,El Dorado Springs,56
-2014-09-12,Cole Camp with Green Ridge,52,Fayette,7
-2014-09-12,DeSoto,13,Festus,46
+2014-09-12,Cole Camp,52,Fayette,7
+2014-09-12,DeSoto with Kingston,13,Festus,46
 2014-09-12,Francis Howell,40,Francis Howell North,0
 2014-09-12,Perryville,6,Fredericktown,33
 2014-09-12,Eureka,38,Ft. Zumwalt East,0
@@ -557,7 +557,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-12,North Platte,20,Lawson,53
 2014-09-12,Glendale,26,Lebanon,39
 2014-09-12,Lee's Summit North,28,Lee's Summit,31
-2014-09-12,Rock Bridge with Columbia Independent,34,Lee's Summit West,48
+2014-09-12,Rock Bridge,34,Lee's Summit West,48
 2014-09-12,Park Hill,38,Liberty,14
 2014-09-12,Windsor,28,Lincoln,44
 2014-09-12,Center,35,Lincoln College Prep,6
@@ -566,7 +566,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-12,Putnam County,20,Marceline,46
 2014-09-12,Clopton with Elsberry,18,Mark Twain,12
 2014-09-12,Logan-Rogersville,22,Marshfield,36
-2014-09-12,Lockwood with Golden City,35,McAuley Catholic with New Heights Christian,0
+2014-09-12,Lockwood with Golden City,35,McAuley Catholic,0
 2014-09-12,Hannibal,27,Mexico,26
 2014-09-12,Penney,69,Mid-Buchanan,30
 2014-09-12,Appleton City with Montrose,6,Midway,49
@@ -607,7 +607,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-12,Joplin,22,Rolla,58
 2014-09-12,Truman,49,Ruskin,0
 2014-09-12,Carrollton,52,Salisbury,57
-2014-09-12,Liberal,12,Sarcoxie,49
+2014-09-12,Liberal with Bronaugh,12,Sarcoxie,49
 2014-09-12,Lafayette (St. Joseph),48,Savannah,35
 2014-09-12,Westran,55,Schuyler County,7
 2014-09-12,Clark County,55,Scotland County,20
@@ -616,7 +616,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-12,Dexter,20,Sikeston,15
 2014-09-12,Pleasant Hope,19,Skyline,53
 2014-09-12,Sacred Heart,54,Slater,12
-2014-09-12,Van-Far,14,South Callaway,82
+2014-09-12,Van-Far with Community,14,South Callaway,82
 2014-09-12,Palmyra,0,South Shelby,32
 2014-09-12,Fair Grove,33,Springfield Catholic,11
 2014-09-12,Warrenton,14,St. Charles,6
@@ -680,10 +680,10 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-19,Central (New Madrid County),72,Charleston,30
 2014-09-19,Chaminade College Preparatory,0,Christian Brothers College,51
 2014-09-19,Bowling Green,57,Clopton with Elsberry,6
-2014-09-19,Sherwood,0,Cole Camp with Green Ridge,34
+2014-09-19,Sherwood,0,Cole Camp,34
 2014-09-19,Santa Fe,50,Concordia,34
 2014-09-19,Jefferson (Festus),21,Crystal City,14
-2014-09-19,Windsor (Imperial),42,DeSoto,40
+2014-09-19,Windsor (Imperial),42,DeSoto with Kingston,40
 2014-09-19,Midway,41,Drexel with Miami (Amoret),6
 2014-09-19,North County,14,Duchesne,38
 2014-09-19,Van Horn,42,East (Kansas City),0
@@ -719,7 +719,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-19,Lawson,7,Lathrop,0
 2014-09-19,Lee's Summit West,56,Lee's Summit North,21
 2014-09-19,Holden,41,Lexington,3
-2014-09-19,Jasper,56,Liberal,22
+2014-09-19,Jasper,56,Liberal with Bronaugh,22
 2014-09-19,Confluence Prep Academy Charter,55,Liberty (Wentzville),14
 2014-09-19,University Academy Charter,7,Lincoln College Prep,17
 2014-09-19,Lafayette (Wildwood),21,Lindbergh,17
@@ -759,7 +759,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-19,Schuyler County,7,Putnam County,26
 2014-09-19,Raytown South,36,Raytown,34
 2014-09-19,Osceola,21,Rich Hill with Hume,13
-2014-09-19,Hickman,23,Rock Bridge with Columbia Independent,42
+2014-09-19,Hickman,23,Rock Bridge,42
 2014-09-19,Ritenour,26,Rockwood Summit,23
 2014-09-19,Ava,23,Salem,21
 2014-09-19,Marceline,33,Salisbury,7
@@ -780,12 +780,12 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-19,Cleveland NJROTC,22,Sumner,28
 2014-09-19,Orrick,0,Sweet Springs with Malta Bend,40
 2014-09-19,Troy Buchanan,7,Timberland,56
-2014-09-19,Father Tolton Regional Catholic,17,Tipton,0
+2014-09-19,Father Tolton with Calvary Lutheran,17,Tipton,0
 2014-09-19,Pembroke Hill,26,Trenton,15
 2014-09-19,Liberty,28,Truman,31
 2014-09-19,St. Clair,35,Union,55
 2014-09-19,Grandview (Hillsboro),6,Valle Catholic,62
-2014-09-19,Montgomery County,35,Van-Far,46
+2014-09-19,Montgomery County,35,Van-Far with Community,46
 2014-09-19,Clinton,6,Warrensburg,44
 2014-09-19,St. Charles West,49,Warrenton,7
 2014-09-19,Eldon,36,Warsaw,15
@@ -814,7 +814,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-20,Vashon,12,Roosevelt,35
 2014-09-20,Windsor,18,Sacred Heart,0
 2014-09-20,Skyline,33,Summit Christian Academy,20
-2014-09-20,Gateway,46,Transportation and Law,6
+2014-09-20,Gateway,46,Transportation and Law with Beaumont,6
 2014-09-20,Clayton,55,University City,20
 2014-09-25,Principia,3,Brentwood,51
 2014-09-25,East (Kansas City),24,Central (Kansas City),36
@@ -825,7 +825,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Platte County,40,Belton,8
 2014-09-26,Osage,6,Blair Oaks,55
 2014-09-26,Buffalo,0,Bolivar,56
-2014-09-26,Van-Far,0,Bowling Green,56
+2014-09-26,Van-Far with Community,0,Bowling Green,56
 2014-09-26,South Harrison,52,Braymer,8
 2014-09-26,Monroe City,0,Brookfield,28
 2014-09-26,Midway,48,Butler,0
@@ -843,7 +843,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Wellington-Napoleon,61,Concordia,45
 2014-09-26,St. Paul Lutheran (Concordia),35,Crest Ridge,20
 2014-09-26,Christian Brothers College,60,De Smet Jesuit,0
-2014-09-26,Fredericktown,30,DeSoto,31
+2014-09-26,Fredericktown,30,DeSoto with Kingston,31
 2014-09-26,Sarcoxie,20,Diamond,21
 2014-09-26,Rich Hill with Hume,31,Drexel with Miami (Amoret),22
 2014-09-26,St. Francis Borgia,45,Duchesne,7
@@ -864,7 +864,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Battle,14,Hickman,7
 2014-09-26,Lafayette County,28,Holden,14
 2014-09-26,Valle Catholic,64,Jefferson (Festus),6
-2014-09-26,Rock Bridge with Columbia Independent,36,Jefferson City,31
+2014-09-26,Rock Bridge,36,Jefferson City,31
 2014-09-26,Hillcrest,43,Kickapoo,49
 2014-09-26,Boonville,27,Kirksville,25
 2014-09-26,Rockwood Summit,28,Kirkwood,52
@@ -885,11 +885,11 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Lindbergh,16,Marquette,22
 2014-09-26,Hollister,8,Marshfield,40
 2014-09-26,Benton,28,Maryville,62
-2014-09-26,El Dorado Springs,42,McAuley Catholic with New Heights Christian,6
+2014-09-26,El Dorado Springs,42,McAuley Catholic,6
 2014-09-26,Lamar,71,McDonald County,0
 2014-09-26,Centralia,7,Mexico,52
 2014-09-26,Plattsburg,49,Mid-Buchanan,20
-2014-09-26,Liberal,0,Miller,66
+2014-09-26,Liberal with Bronaugh,0,Miller,66
 2014-09-26,Carnahan,12,Miller Career Academy,56
 2014-09-26,Marshall,20,Moberly,55
 2014-09-26,Aurora,3,Monett,34
@@ -943,7 +943,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Orchard Farm,13,St. Charles West,45
 2014-09-26,St. Clair,57,St. James,55
 2014-09-26,Bishop DuBourg,28,St. Mary's South Side,55
-2014-09-26,Father Tolton Regional Catholic,31,St. Pius X (Festus),8
+2014-09-26,Father Tolton with Calvary Lutheran,31,St. Pius X (Festus),8
 2014-09-26,Warrensburg,14,St. Pius X (Kansas City),21
 2014-09-26,Crystal City,14,St. Vincent,34
 2014-09-26,North Kansas City,18,Staley,55
@@ -958,13 +958,13 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-09-26,Webb City,46,Willard,15
 2014-09-26,Fort Osage,49,William Chrisman,14
 2014-09-26,Salem,14,Willow Springs,21
-2014-09-26,Cole Camp with Green Ridge,30,Windsor,16
+2014-09-26,Cole Camp,30,Windsor,16
 2014-09-26,Hillsboro,50,Windsor (Imperial),3
 2014-09-26,Kearney,14,Winnetonka,17
 2014-09-27,Confluence Prep Academy Charter,41,Barat Academy,0
 2014-09-27,Kelly,36,Charleston,6
 2014-09-27,Ladue Horton Watkins,42,Clayton,14
-2014-09-27,Transportation and Law,20,Cleveland NJROTC,30
+2014-09-27,Transportation and Law with Beaumont,20,Cleveland NJROTC,30
 2014-09-27,Holt,12,Ft. Zumwalt East,42
 2014-09-27,Ft. Zumwalt South,21,Ft. Zumwalt North,42
 2014-09-27,Francis Howell Central,0,Ft. Zumwalt West,56
@@ -1010,15 +1010,15 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-03,Savannah,47,Chillicothe,7
 2014-10-03,Louisiana,19,Clark County,42
 2014-10-03,Smith-Cotton,28,Clinton,6
-2014-10-03,Tipton,0,Cole Camp with Green Ridge,28
+2014-10-03,Tipton,0,Cole Camp,28
 2014-10-03,Vianney,28,De Smet Jesuit,14
-2014-10-03,Hillsboro,50,DeSoto,6
+2014-10-03,Hillsboro,50,DeSoto with Kingston,6
 2014-10-03,Sherwood,34,Drexel with Miami (Amoret),0
 2014-10-03,North Platte,7,East Buchanan,66
 2014-10-03,Portageville,32,East Prairie,34
 2014-10-03,Pierce City,16,El Dorado Springs,48
 2014-10-03,Central (Cape Girardeau),55,Farmington,13
-2014-10-03,Missouri Military Academy,6,Father Tolton Regional Catholic,50
+2014-10-03,Missouri Military Academy,6,Father Tolton with Calvary Lutheran,50
 2014-10-03,Marceline,54,Fayette,12
 2014-10-03,Oak Park,14,Fort Osage,51
 2014-10-03,Francis Howell,49,Francis Howell Central,6
@@ -1037,7 +1037,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-03,Parkview,24,Hillcrest,14
 2014-10-03,Ft. Zumwalt North,32,Holt,20
 2014-10-03,Willow Springs,34,Houston,26
-2014-10-03,McAuley Catholic with New Heights Christian,14,Jasper,33
+2014-10-03,McAuley Catholic,14,Jasper,33
 2014-10-03,Confluence Prep Academy Charter,6,Jefferson City,48
 2014-10-03,Westminster Christian Academy,7,John Burroughs,28
 2014-10-03,Lebanon,17,Joplin,45
@@ -1097,7 +1097,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-03,Willard,42,Republic,10
 2014-10-03,Midway,49,Rich Hill with Hume,20
 2014-10-03,Holden,12,Richmond,26
-2014-10-03,Helias Catholic,36,Rock Bridge with Columbia Independent,14
+2014-10-03,Helias Catholic,36,Rock Bridge,14
 2014-10-03,Hickman,6,Rockhurst,42
 2014-10-03,Pattonville,11,Rockwood Summit,13
 2014-10-03,Central (St. Joseph),30,Ruskin,24
@@ -1120,7 +1120,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-03,Ava,25,Thayer,14
 2014-10-03,Ft. Zumwalt West,45,Troy Buchanan,7
 2014-10-03,Hogan Prep Academy Charter,55,Van Horn,21
-2014-10-03,Wright City,18,Van-Far,24
+2014-10-03,Wright City,18,Van-Far with Community,24
 2014-10-03,John F. Kennedy,0,Veritas Christian Academy,41
 2014-10-03,Hallsville,49,Versailles,6
 2014-10-03,Center,21,Warrensburg,14
@@ -1142,7 +1142,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-04,Sacred Heart,0,Summit Christian Academy,39
 2014-10-04,Chaminade College Preparatory,55,University City,12
 2014-10-04,Liberty North,42,William Chrisman,7
-2014-10-06,Liberal,18,Archie,38
+2014-10-06,Liberal with Bronaugh,18,Archie,38
 2014-10-09,Reeds Spring,13,Central (Springfield),6
 2014-10-09,Rockhurst,40,Helias Catholic,10
 2014-10-09,Lebanon,14,Kickapoo,45
@@ -1169,12 +1169,12 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-10,East Prairie,70,Charleston,6
 2014-10-10,Smithville,39,Chillicothe,14
 2014-10-10,Monett,41,Clinton,0
-2014-10-10,Van-Far,12,Clopton with Elsberry,14
+2014-10-10,Van-Far with Community,12,Clopton with Elsberry,14
 2014-10-10,Concordia,19,Crest Ridge,40
 2014-10-10,St. Pius X (Festus),54,Crystal City,0
-2014-10-10,Father Tolton Regional Catholic,35,Cuba,0
+2014-10-10,Father Tolton with Calvary Lutheran,35,Cuba,0
 2014-10-10,Central (Park Hills),46,Dexter,21
-2014-10-10,Liberal,8,Diamond,35
+2014-10-10,Liberal with Bronaugh,8,Diamond,35
 2014-10-10,Jennings,36,Duchesne,6
 2014-10-10,Northeast (Kansas City),20,East (Kansas City),6
 2014-10-10,Cassville,47,East Newton,0
@@ -1225,7 +1225,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-10,Hannibal,42,Marshall,13
 2014-10-10,Buffalo,0,Marshfield,49
 2014-10-10,South Harrison,36,Maysville,28
-2014-10-10,Pierce City,30,McAuley Catholic with New Heights Christian,20
+2014-10-10,Pierce City,30,McAuley Catholic,20
 2014-10-10,McCluer,0,McCluer North,46
 2014-10-10,Mt. Vernon,21,McDonald County,20
 2014-10-10,Oakville,63,Mehlville,14
@@ -1241,7 +1241,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-10,Missouri Military Academy,48,North Shelby,12
 2014-10-10,North Kansas City,40,Oak Park,57
 2014-10-10,Harrisonville,13,Odessa,0
-2014-10-10,Cole Camp with Green Ridge,18,Osceola,35
+2014-10-10,Cole Camp,18,Osceola,35
 2014-10-10,Ruskin,0,Park Hill South,49
 2014-10-10,West Plains,33,Parkview,39
 2014-10-10,Marquette,13,Parkway South,21
@@ -1268,7 +1268,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-10,Santa Fe,18,St. Paul Lutheran (Concordia),49
 2014-10-10,Smith-Cotton,21,St. Pius X (Kansas City),10
 2014-10-10,Grandview (Hillsboro),7,St. Vincent,28
-2014-10-10,DeSoto,7,Ste. Genevieve,43
+2014-10-10,DeSoto with Kingston,7,Ste. Genevieve,43
 2014-10-10,Pleasant Hope,7,Stockton,41
 2014-10-10,Owensville,12,Sullivan,38
 2014-10-10,Francis Howell Central,0,Timberland,6
@@ -1304,7 +1304,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-11,Parkway North,14,Ritenour,6
 2014-10-11,Hogan Prep Academy Charter,39,Southeast,0
 2014-10-11,Confluence Prep Academy Charter,12,St. Mary's South Side,31
-2014-10-11,Transportation and Law,0,Sumner,12
+2014-10-11,Transportation and Law with Beaumont,0,Sumner,12
 2014-10-11,Central (Kansas City),22,Van Horn,55
 2014-10-11,Veritas Christian Academy,14,Westminster Christian Academy,56
 2014-10-16,Cleveland NJROTC,20,Brentwood,62
@@ -1327,7 +1327,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,Summit Christian Academy,34,Butler,6
 2014-10-17,Sikeston,20,Cardinal Ritter,0
 2014-10-17,Lamar,28,Carl Junction,29
-2014-10-17,Transportation and Law,8,Carnahan,40
+2014-10-17,Transportation and Law with Beaumont,8,Carnahan,40
 2014-10-17,Lafayette County,47,Carrollton,12
 2014-10-17,Willard,44,Carthage,28
 2014-10-17,Ste. Genevieve,21,Caruthersville,17
@@ -1339,7 +1339,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,Brookfield,41,Clark County,0
 2014-10-17,Nevada,13,Clinton,14
 2014-10-17,Wright City,0,Clopton with Elsberry,20
-2014-10-17,Lincoln,20,Cole Camp with Green Ridge,52
+2014-10-17,Lincoln,20,Cole Camp,52
 2014-10-17,Trenton,41,Concordia,26
 2014-10-17,Ft. Zumwalt West,50,De Smet Jesuit,14
 2014-10-17,MICDS,30,Duchesne,0
@@ -1348,7 +1348,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,Kennett,56,East Prairie,20
 2014-10-17,Adrian,39,El Dorado Springs,36
 2014-10-17,Hazelwood East,0,Eureka,38
-2014-10-17,Sacred Heart,0,Father Tolton Regional Catholic,31
+2014-10-17,Sacred Heart,0,Father Tolton with Calvary Lutheran,31
 2014-10-17,Clayton,21,Festus,24
 2014-10-17,Raytown,7,Fort Osage,48
 2014-10-17,North County,14,Fredericktown,20
@@ -1379,7 +1379,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,Parkview,45,Lebanon,28
 2014-10-17,Blue Springs,31,Lee's Summit North,13
 2014-10-17,Richmond,34,Lexington,13
-2014-10-17,Rich Hill with Hume,41,Liberal,0
+2014-10-17,Rich Hill with Hume,41,Liberal with Bronaugh,0
 2014-10-17,Jasper,36,Lockwood with Golden City,16
 2014-10-17,Archie,20,Lone Jack,42
 2014-10-17,Highland,29,Louisiana,14
@@ -1388,12 +1388,12 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,Dexter,8,Malden,76
 2014-10-17,Montgomery County,19,Mark Twain,40
 2014-10-17,Francis Howell Central,28,Marquette,49
-2014-10-17,Miller,61,McAuley Catholic with New Heights Christian,16
+2014-10-17,Miller,61,McAuley Catholic,16
 2014-10-17,Moberly,16,Mexico,33
 2014-10-17,Putnam County,22,Milan,55
 2014-10-17,McDonald County,2,Monett,67
 2014-10-17,Central (Springfield),48,Mt. Vernon,51
-2014-10-17,Van-Far,30,North Callaway,40
+2014-10-17,Van-Far with Community,30,North Callaway,40
 2014-10-17,Liberty North,42,North Kansas City,12
 2014-10-17,Parkway West,42,Northwest (Cedar Hill),13
 2014-10-17,Excelsior Springs,0,Oak Grove,45
@@ -1415,14 +1415,14 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-17,University Academy Charter,26,Polo,38
 2014-10-17,Normandy Collaborative,12,Poplar Bluff,43
 2014-10-17,Central (New Madrid County),48,Portageville,20
-2014-10-17,DeSoto,21,Potosi,35
+2014-10-17,DeSoto with Kingston,21,Potosi,35
 2014-10-17,Maysville,42,Princeton with Mercer,12
 2014-10-17,Lee's Summit West,14,Raymore-Peculiar,27
 2014-10-17,Platte County,35,Raytown South,34
 2014-10-17,Bolivar,33,Reeds Spring,28
 2014-10-17,Nixa,23,Republic,7
 2014-10-17,Chaminade College Preparatory,37,Ritenour,15
-2014-10-17,Christian Brothers College,40,Rock Bridge with Columbia Independent,26
+2014-10-17,Christian Brothers College,40,Rock Bridge,26
 2014-10-17,Jefferson City,17,Rockhurst,34
 2014-10-17,Gateway,26,Rockwood Summit,47
 2014-10-17,Cabool,14,Salem,32
@@ -1481,10 +1481,10 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-24,Thayer,14,Cabool,19
 2014-10-24,Sarcoxie,14,Miller,56
 2014-10-24,Pierce City,14,Marionville,54
-2014-10-24,Liberal,6,Midway,46
+2014-10-24,Liberal with Bronaugh,6,Midway,46
 2014-10-24,Drexel with Miami (Amoret),18,Adrian,26
 2014-10-24,Archie,0,Jasper,55
-2014-10-24,McAuley Catholic with New Heights Christian,0,Rich Hill with Hume,42
+2014-10-24,McAuley Catholic,0,Rich Hill with Hume,42
 2014-10-24,Appleton City with Montrose,12,Osceola,42
 2014-10-24,Lincoln,8,Tipton,30
 2014-10-24,Sacred Heart,8,Skyline,70
@@ -1520,21 +1520,20 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-24,Southeast,0,University Academy Charter,34
 2014-10-24,Sherwood,0,Stockton,35
 2014-10-24,Trinity Catholic,8,Maplewood-Richmond Hts.,0
-2014-10-24,Transportation and Law,6,Hermann,36
+2014-10-24,Transportation and Law with Beaumont,6,Hermann,36
 2014-10-24,Lutheran St. Charles,33,Brentwood,49
 2014-10-24,Highland,7,Bowling Green,72
-2014-10-24,Van-Far,26,Clopton with Elsberry,24
+2014-10-24,Van-Far with Community,26,Clopton with Elsberry,24
 2014-10-24,Montgomery County,24,North Callaway,48
 2014-10-24,Clark County,0,Palmyra,41
 2014-10-24,Knob Noster,0,South Callaway,56
-2014-10-24,Father Tolton Regional Catholic,17,Hallsville,21
+2014-10-24,Father Tolton with Calvary Lutheran,17,Hallsville,21
 2014-10-24,Holden,14,Lafayette County,50
-2014-10-24,Cole Camp with Green Ridge,35,St. Paul Lutheran (Concordia),12
+2014-10-24,Cole Camp,35,St. Paul Lutheran (Concordia),12
 2014-10-24,Trenton,13,Brookfield,56
 2014-10-24,Lexington,15,Lawson,34
 2014-10-24,Carrollton,6,East Buchanan,56
 2014-10-24,Lathrop,19,Bishop LeBlond,65
-2014-10-24,Lutheran North,13,Principia,0
 2014-10-24,Central (New Madrid County),14,Central (Park Hills),51
 2014-10-24,Dexter,35,St. Pius X (Festus),44
 2014-10-24,Fredericktown,26,Potosi,13
@@ -1562,7 +1561,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-24,Chillicothe,35,Richmond,27
 2014-10-24,Cameron,13,St. Pius X (Kansas City),47
 2014-10-24,Northeast (Kansas City),0,Lincoln College Prep,60
-2014-10-24,DeSoto,14,Central (Cape Girardeau),49
+2014-10-24,DeSoto with Kingston,14,Central (Cape Girardeau),49
 2014-10-24,Farmington,14,Sikeston,55
 2014-10-24,North County,29,Festus,38
 2014-10-24,Perryville,18,Hillsboro,66
@@ -1618,7 +1617,7 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-24,Troy Buchanan,0,Francis Howell,62
 2014-10-24,Blue Springs South,35,Timberland,14
 2014-10-24,Hickman,0,Jefferson City,39
-2014-10-24,Rock Bridge with Columbia Independent,41,Ft. Zumwalt West,62
+2014-10-24,Rock Bridge,41,Ft. Zumwalt West,62
 2014-10-24,Lee's Summit North,14,Rockhurst,43
 2014-10-24,Joplin,21,Kickapoo,35
 2014-10-24,Lee's Summit West,17,Raymore-Peculiar,20
@@ -1657,10 +1656,10 @@ Date,Home Team,Home Score,Away Team,Away Score
 2014-10-31,Ash Grove,6,Liberty (Mountain View),54
 2014-10-31,El Dorado Springs,6,Lamar,58
 2014-10-31,Brentwood,15,Hermann,34
-2014-10-31,Van-Far,20,Bowling Green,71
+2014-10-31,Van-Far with Community,20,Bowling Green,71
 2014-10-31,Palmyra,36,North Callaway,0
 2014-10-31,Hallsville,0,South Callaway,61
-2014-10-31,Cole Camp with Green Ridge,14,Lafayette County,53
+2014-10-31,Cole Camp,14,Lafayette County,53
 2014-10-31,Lawson,14,Brookfield,44
 2014-10-31,Bishop LeBlond,34,East Buchanan,58
 2014-10-31,St. Pius X (Festus),17,Central (Park Hills),49
