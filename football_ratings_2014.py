@@ -37,11 +37,45 @@ MOV_CAP               = 28    # max points of "error" any single game can contri
 # Team names must match exactly the names in classifications.json.
  
 MANUAL_GAMES = [
-    # NOTE: These are manually-added 2011 games that don't appear on the
-    # MSHSAA scoreboard. The list has been cleared for 2014 since none of
-    # the 2011 entries apply to this season. Re-populate with any 2014
-    # games missing from the scraped scoreboard, in the same format:
-    # ("YYYY-MM-DD", "Team 1 Name", score1, "Team 2 Name", score2)
+    # Added from 2014_Missing_Games.xlsx (games missing from MSHSAA scoreboard).
+    # TODO: the spreadsheet had no date column -- replace "2014-XX-XX" below
+    # with each game's actual date once you have it. Dates don't affect the
+    # rating math (calculate_ratings() ignores them entirely), but they do
+    # feed the scoreboard CSV and the dedup key, so they should be corrected
+    # before treating football_scoreboard_2014.csv as authoritative.
+    ("2014-08-01", "Blair Oaks", 34, "Southern Boone", 7),
+    ("2014-08-01", "Chaminade College Preparatory", 13, "St. Louis University", 6),
+    ("2014-08-01", "Christian Brothers College", 49, "Christian Brothers College", 7),
+    ("2014-08-01", "Christian Brothers College", 63, "Hickman", 14),
+    ("2014-08-01", "Christian Brothers College", 49, "St. Louis University", 16),
+    ("2014-08-01", "Cleveland NJROTC", 12, "The College Preparatory", 6),
+    ("2014-08-01", "Dexter", 35, "Kennett", 34),
+    ("2014-08-01", "Eldon", 42, "The College Preparatory", 8),
+    ("2014-08-01", "Farmington", 44, "Normandy Collaborative", 20),
+    ("2014-08-01", "Hazelwood Central", 23, "St. Louis University", 14),
+    ("2014-08-01", "Herculaneum", 19, "The College Preparatory", 14),
+    ("2014-08-01", "Hogan Prep Academy Charter", 32, "Lathrop", 28),
+    ("2014-08-01", "Hogan Prep Academy Charter", 53, "Southwest Early College Campus", 0),
+    ("2014-08-01", "Holden", 45, "Southwest Early College Campus", 14),
+    ("2014-08-01", "Kennett", 47, "Charleston", 6),
+    ("2014-08-01", "Lincoln College Prep", 13, "Southwest Early College Campus", 0),
+    ("2014-08-01", "Miller Career Academy", 68, "The College Preparatory", 6),
+    ("2014-08-01", "Odessa", 63, "Southwest Early College Campus", 6),
+    ("2014-08-01", "Soldan International Studies", 44, "The College Preparatory", 6),
+    ("2014-08-01", "Southwest Early College Campus", 36, "East Kansas City", 20),
+    ("2014-08-01", "Southwest Early College Campus", 14, "Northeast Kansas City", 12),
+    ("2014-08-01", "Southwest Early College Campus", 13, "Southeast", 0),
+    ("2014-08-01", "St. Louis University", 49, "De Smet Jesuit", 7),
+    ("2014-08-01", "St. Louis University", 42, "Hazelwood West", 0),
+    ("2014-08-01", "St. Louis University", 56, "Hillsboro", 14),
+    ("2014-08-01", "St. Louis University", 38, "Kirkwood", 35),
+    ("2014-08-01", "St. Louis University", 20, "Lafayette Wildwood", 6),
+    ("2014-08-01", "St. Louis University", 44, "Parkway South", 0),
+    ("2014-08-01", "St. Louis University", 35, "Vianney", 7),
+    ("2014-08-01", "Sumner", 26, "The College Preparatory", 20),
+    ("2014-08-01", "The College Preparatory", 32, "Carnahan", 18),
+    ("2014-08-01", "The College Preparatory", 10, "Transportation and Law", 8),
+    ("2014-08-01", "University Academy Charter", 33, "Southwest Early College Campus", 0),
 ]
  
 HEADERS = {
@@ -54,6 +88,35 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.5",
     "Referer": "https://www.mshsaa.org/"
 }
+ 
+# ---------------------------------------------------------------------------
+# HTTP SESSION (connection reuse + retry on transient failures)
+# ---------------------------------------------------------------------------
+# Days that timeout right at the 20s ceiling get one retry with a short
+# backoff before we give up on them. A shared Session reuses the underlying
+# TCP connection instead of opening a fresh one per request, which by
+# itself often reduces the frequency of these near-ceiling timeouts.
+ 
+def build_session():
+    from requests.adapters import HTTPAdapter
+    try:
+        from urllib3.util.retry import Retry
+    except ImportError:
+        from requests.packages.urllib3.util.retry import Retry
+ 
+    session = requests.Session()
+    retry = Retry(
+        total=1,                      # one retry after the first failure
+        connect=1,
+        read=1,
+        backoff_factor=1.5,           # short pause before the retry
+        status_forcelist=[500, 502, 503, 504],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=1, pool_maxsize=1)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
  
 # ---------------------------------------------------------------------------
 # CLASSIFICATIONS
@@ -196,14 +259,21 @@ def is_forfeit(c1, c2):
     return "forfeit" in (c1.get_text() + c2.get_text()).lower()
  
  
-def scrape_date(target_date, id_to_classname, known_teams):
+def scrape_date(target_date, id_to_classname, known_teams, session):
     url = BASE_URL.format(target_date.strftime("%m%d%Y"))
     try:
-        resp = requests.get(url, timeout=20, headers=HEADERS)
+        # (connect_timeout, read_timeout) -- 10s to connect, 25s to read.
+        # 25s (vs. the old flat 20s) gives borderline-slow responses (the
+        # ~20.6-20.9s ones you saw) a real chance to finish instead of
+        # being cut off right before they would have succeeded.
+        resp = session.get(url, timeout=(10, 25), headers=HEADERS)
         resp.raise_for_status()
+    except requests.exceptions.Timeout as e:
+        print(f"  TIMEOUT {target_date}: {e}")
+        return [], "timeout"
     except requests.RequestException as e:
         print(f"  Failed {target_date}: {e}")
-        return []
+        return [], "error"
  
     soup  = BeautifulSoup(resp.text, "html.parser")
     games = []
@@ -241,19 +311,48 @@ def scrape_date(target_date, id_to_classname, known_teams):
             name2, s2
         ))
  
-    return games
+    return games, None
  
  
 def scrape_full_season(id_to_classname, known_teams):
-    all_games = []
-    current   = SEASON_START
+    all_games     = []
+    current       = SEASON_START
+    scrape_t0     = time.perf_counter()
+    slow_days     = []   # (date, seconds) for anything taking > 3s
+    failed_days   = []   # (date, reason) for anything that never succeeded
+    session       = build_session()
+ 
     while current <= min(SEASON_END, date.today()):
+        day_t0 = time.perf_counter()
         print(f"  Scraping {current}...", end=" ", flush=True)
-        day_games = scrape_date(current, id_to_classname, known_teams)
+        day_games, fail_reason = scrape_date(current, id_to_classname, known_teams, session)
         all_games.extend(day_games)
-        print(f"{len(day_games)} games")
+        day_elapsed = time.perf_counter() - day_t0
+        print(f"{len(day_games)} games ({day_elapsed:.1f}s)")
+        if day_elapsed > 3.0:
+            slow_days.append((current, day_elapsed))
+        if fail_reason is not None:
+            failed_days.append((current, fail_reason))
         current += timedelta(days=1)
         time.sleep(0.5)
+ 
+    scrape_elapsed = time.perf_counter() - scrape_t0
+    print(f"\n  [TIMING] Scraping took {scrape_elapsed:.1f}s total "
+          f"for {len(all_games)} games.")
+    if slow_days:
+        print(f"  [TIMING] {len(slow_days)} slow day(s) (>3s each):")
+        for d, secs in slow_days:
+            print(f"    {d}: {secs:.1f}s")
+    if failed_days:
+        print(f"\n  *** {len(failed_days)} date(s) NEVER returned data, "
+              f"even after retry -- these dates may be missing real "
+              f"games. Check them manually against MSHSAA and add via "
+              f"MANUAL_GAMES if needed: ***")
+        for d, reason in failed_days:
+            print(f"    {d} ({reason})")
+    else:
+        print("  All dates returned successfully -- no known data gaps "
+              "from scraping failures.")
     return all_games
  
  
@@ -421,8 +520,11 @@ def calculate_ratings(all_games, iterations=ITERATIONS):
     print(f"\n  Running rating fit ({iterations} iterations, soft-weighted "
           f"by competitiveness [scale={COMPETITIVE_THRESHOLD}], "
           f"shrinkage K={REGULARIZATION_K}, MOV cap={MOV_CAP})...")
+    print(f"  [TIMING] {len(teams)} teams, {len(games)} games going into the fit.")
+    engine_t0 = time.perf_counter()
     run_iterations(games, teams, off_rating, def_rating, league_avg,
                    iterations=iterations, phase_label="Fit")
+    print(f"  [TIMING] Rating fit took {time.perf_counter() - engine_t0:.1f}s.")
  
     ovr_rating = {t: round(off_rating[t] + def_rating[t], 2) for t in teams}
     return off_rating, def_rating, ovr_rating, league_avg
