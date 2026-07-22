@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 at 07:19 PM",
+  "last_updated": "July 22, 2026 at 08:51 PM",
   "league_average": 26.3,
   "teams": [
     {
@@ -191,9 +191,9 @@
     },
     {
       "ovr_rank": 18,
-      "school": "St. Louis University",
-      "classification": 6,
-      "district": 2,
+      "school": "SLUH",
+      "classification": null,
+      "district": null,
       "ovr_rating": 44.57,
       "off_rating": 19.56,
       "off_rank": 32,
@@ -1830,17 +1830,6 @@
     },
     {
       "ovr_rank": 167,
-      "school": "Fox",
-      "classification": 5,
-      "district": 1,
-      "ovr_rating": -0.66,
-      "off_rating": -6.76,
-      "off_rank": 214,
-      "def_rating": 6.1,
-      "def_rank": 117
-    },
-    {
-      "ovr_rank": 168,
       "school": "Gateway",
       "classification": 4,
       "district": 2,
@@ -1849,6 +1838,17 @@
       "off_rank": 196,
       "def_rating": 4.03,
       "def_rank": 129
+    },
+    {
+      "ovr_rank": 168,
+      "school": "Fox",
+      "classification": 5,
+      "district": 1,
+      "ovr_rating": -0.66,
+      "off_rating": -6.76,
+      "off_rank": 214,
+      "def_rating": 6.1,
+      "def_rank": 117
     },
     {
       "ovr_rank": 169,
@@ -2160,17 +2160,6 @@
     },
     {
       "ovr_rank": 197,
-      "school": "Plattsburg",
-      "classification": 1,
-      "district": 7,
-      "ovr_rating": -8.18,
-      "off_rating": -9.53,
-      "off_rank": 237,
-      "def_rating": 1.35,
-      "def_rank": 156
-    },
-    {
-      "ovr_rank": 198,
       "school": "South Harrison",
       "classification": 1,
       "district": 8,
@@ -2179,6 +2168,17 @@
       "off_rank": 215,
       "def_rating": -0.93,
       "def_rank": 173
+    },
+    {
+      "ovr_rank": 198,
+      "school": "Plattsburg",
+      "classification": 1,
+      "district": 7,
+      "ovr_rating": -8.18,
+      "off_rating": -9.53,
+      "off_rank": 237,
+      "def_rating": 1.35,
+      "def_rank": 156
     },
     {
       "ovr_rank": 199,
@@ -2798,17 +2798,6 @@
     },
     {
       "ovr_rank": 255,
-      "school": "St. Paul Lutheran (Concordia)",
-      "classification": 2,
-      "district": 7,
-      "ovr_rating": -21.52,
-      "off_rating": -11.07,
-      "off_rank": 247,
-      "def_rating": -10.45,
-      "def_rank": 258
-    },
-    {
-      "ovr_rank": 256,
       "school": "Lincoln",
       "classification": 1,
       "district": 4,
@@ -2817,6 +2806,17 @@
       "off_rank": 178,
       "def_rating": -19.13,
       "def_rank": 305
+    },
+    {
+      "ovr_rank": 256,
+      "school": "St. Paul Lutheran (Concordia)",
+      "classification": 2,
+      "district": 7,
+      "ovr_rating": -21.52,
+      "off_rating": -11.07,
+      "off_rank": 247,
+      "def_rating": -10.45,
+      "def_rank": 258
     },
     {
       "ovr_rank": 257,
